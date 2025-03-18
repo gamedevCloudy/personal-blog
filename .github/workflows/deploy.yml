@@ -1,0 +1,33 @@
+name: Deploy Hugo Blog
+
+on:
+  push:
+    branches:
+      - main # Adjust if your default branch is different
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Hugo
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y hugo
+
+      - name: Build the site
+        run: hugo --minify
+
+      - name: Deploy to VPS
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          VPS_USER: "your_user"
+          VPS_HOST: "your_vps_ip"
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          rsync -avz --delete public/ $VPS_USER@$VPS_HOST:/var/www/blog
+          ssh -o StrictHostKeyChecking=no $VPS_USER@$VPS_HOST 'sudo systemctl restart nginx'
