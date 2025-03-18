@@ -3,7 +3,7 @@ name: Deploy Hugo Blog
 on:
   push:
     branches:
-      - main # Adjust if your default branch is different
+      - main
 
 jobs:
   build:
@@ -29,5 +29,8 @@ jobs:
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          rsync -avz --delete public/ $VPS_USER@$VPS_HOST:/var/www/blog-aayush
+          eval "$(ssh-agent -s)"
+          ssh-add ~/.ssh/id_rsa
+          ssh-keyscan $VPS_HOST >> ~/.ssh/known_hosts
+          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" public/ $VPS_USER@$VPS_HOST:/var/www/blog
           ssh -o StrictHostKeyChecking=no $VPS_USER@$VPS_HOST 'sudo systemctl restart nginx'
