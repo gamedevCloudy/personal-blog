@@ -23,11 +23,11 @@ jobs:
       - name: Deploy to VPS
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          VPS_USER: "your_user"
-          VPS_HOST: "your_vps_ip"
+          VPS_USER: "baadal"
+          VPS_HOST: "demonkingswarn.live"
         run: |
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          rsync -avz --delete public/ $VPS_USER@$VPS_HOST:/var/www/blog
+          rsync -avz --delete public/ $VPS_USER@$VPS_HOST:/var/www/blog-aayush
           ssh -o StrictHostKeyChecking=no $VPS_USER@$VPS_HOST 'sudo systemctl restart nginx'
