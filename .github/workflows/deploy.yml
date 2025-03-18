@@ -1,36 +1,14 @@
-name: Deploy Hugo Blog
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Install Hugo
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y hugo
-
-      - name: Build the site
-        run: hugo --minify
-
-      - name: Deploy to VPS
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          VPS_USER: "baadal"
-          VPS_HOST: "demonkingswarn.live"
-        run: |
-          mkdir -p ~/.ssh
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          eval "$(ssh-agent -s)"
-          ssh-add ~/.ssh/id_rsa
-          ssh-keyscan $VPS_HOST >> ~/.ssh/known_hosts
-          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" public/ $VPS_USER@$VPS_HOST:/var/www/blog
-          ssh -o StrictHostKeyChecking=no $VPS_USER@$VPS_HOST 'sudo systemctl restart nginx'
+- name: Deploy to VPS
+  env:
+    SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+    VPS_USER: "baadal"
+    VPS_HOST: "demonkingswarn.live"
+  run: |
+    mkdir -p ~/.ssh
+    echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+    chmod 600 ~/.ssh/id_rsa
+    eval "$(ssh-agent -s)"
+    ssh-add ~/.ssh/id_rsa
+    ssh -o StrictHostKeyChecking=no $VPS_USER@$VPS_HOST "sudo mkdir -p /var/www/blog-aayush"
+    rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" public/ $VPS_USER@$VPS_HOST:/var/www/blog-aayush
+    ssh -o StrictHostKeyChecking=no $VPS_USER@$VPS_HOST "sudo chown -R www-data:www-data /var/www/blog-aayush && sudo systemctl restart nginx"
