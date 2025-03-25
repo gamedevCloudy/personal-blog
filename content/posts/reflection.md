@@ -3,8 +3,6 @@ date = '2024-09-24T08:23:00+05:30'
 title = 'Reflection | Life Update'
 +++
 
-Reflection | Life Update
-
 Looking back at the past few months, I haven't had the luxury of reflecting.
 
 I usually stop by and look at where I am headed in life. What am I trying to do? What did I do wrong? These questions often lead to hours of monologue with myself and my journal.

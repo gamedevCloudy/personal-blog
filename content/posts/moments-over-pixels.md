@@ -3,8 +3,6 @@ date = '2024-09-03T00:00:00+05:30'
 title = 'Moments Over Pixels'
 +++
 
-## Moments over pixels
-
 One should buy a budget camera + a cheaper phone than a flagship phone.
 
 MKBHD says, "What is a photo?". We've come so far in computational photography that computed photos are indistinguishable from real ones. I recently tried Google's 'Add Me', and it's really believable.

@@ -3,8 +3,6 @@ date = '2025-03-24T19:30:55+05:30'
 title = 'Bluesky Fresh Breath'
 +++
 
-## Bluesky a fresh breath
-
 Bluesky has been a new emergence as twitter alternatives. Although, from the get go I wansn't very attracted to Twitter. The UI is too populated and everyone's shouting.
 
 Bluesky seems quiter, not many people.
