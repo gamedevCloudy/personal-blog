@@ -1,38 +1,31 @@
 name: Deploy Hugo Blog
-
 on:
   push:
     branches:
       - main # Change this if your default branch is different
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-
       - name: Install Hugo
-        run: sudo apt-get install -y hugo
-
+        run: sudo apt-get update && sudo apt-get install -y hugo
       - name: Build Hugo Site
         run: hugo --minify
-
       - name: Deploy to VPS
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           VPS_USER: "baadal"
           VPS_HOST: "demonkingswarn.live"
+          DEPLOY_DIR: "/home/baadal/blog-aayush" # Use a directory that `baadal` can write to
         run: |
           mkdir -p ~/.ssh
           echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
           eval "$(ssh-agent -s)"
           ssh-add ~/.ssh/id_rsa
-
-          ssh -o StrictHostKeyChecking=no $VPS_USER@$VPS_HOST "sudo mkdir -p /var/www/blog-aayush"
-
-          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" public/ $VPS_USER@$VPS_HOST:/var/www/blog-aayush
-
-          ssh -o StrictHostKeyChecking=no $VPS_USER@$VPS_HOST "sudo chown -R www-data:www-data /var/www/blog-aayush && sudo systemctl restart nginx"
+          # Verify the host key manually or use StrictHostKeyChecking=accept-new
+          ssh -o StrictHostKeyChecking=accept-new $VPS_USER@$VPS_HOST "mkdir -p $DEPLOY_DIR"
+          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=accept-new" public/ $VPS_USER@$VPS_HOST:$DEPLOY_DIR
+          ssh -o StrictHostKeyChecking=accept-new $VPS_USER@$VPS_HOST "sudo rsync -avz --delete $DEPLOY_DIR/ /var/www/blog-aayush/ && sudo chown -R www-data:www-data /var/www/blog-aayush && sudo systemctl restart nginx"
