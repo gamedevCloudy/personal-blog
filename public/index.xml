@@ -1,12 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>aayush's blog</title><link>https://blog.aayushdev.xyz/</link><description>Recent content on aayush's blog</description><generator>Hugo</generator><language>en-us</language><copyright>Copyright © 2025, Aayush Chaudhary.</copyright><lastBuildDate>Mon, 24 Mar 2025 19:30:55 +0530</lastBuildDate><atom:link href="https://blog.aayushdev.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>Bluesky Fresh Breath</title><link>https://blog.aayushdev.xyz/posts/bluesky-fresh-breath/</link><pubDate>Mon, 24 Mar 2025 19:30:55 +0530</pubDate><guid>https://blog.aayushdev.xyz/posts/bluesky-fresh-breath/</guid><description>&lt;p>Bluesky has been a new emergence as twitter alternatives. Although, from the get go I wansn&amp;rsquo;t very attracted to Twitter. The UI is too populated and everyone&amp;rsquo;s shouting.&lt;/p>
-&lt;p>Bluesky seems quiter, not many people.&lt;/p>
-&lt;p>Although, its counter-intuitive - I get less eyes on my work. Even so, I prefer it for the same reason. I wanna be seen but not too much.&lt;/p>
-&lt;h3 id="why-bsky">Why BSky?&lt;/h3>
-&lt;p>Its been about 25 days since I started posting there. I am able to talk anything, not many will see it, nor it would be judged.
-But, my orignal intent was increase reach on my reserach interests and possibly land a job via networking and public learning.
-That hasn&amp;rsquo;t been going so well. I just post about what happend throughout my day. And one thing that I did related to coding.
-I need to follow a structured approach to this.&lt;/p></description></item><item><title>Reflection | Life Update</title><link>https://blog.aayushdev.xyz/posts/reflection/</link><pubDate>Tue, 24 Sep 2024 08:23:00 +0530</pubDate><guid>https://blog.aayushdev.xyz/posts/reflection/</guid><description>&lt;p>Looking back at the past few months, I haven&amp;rsquo;t had the luxury of reflecting.&lt;/p>
-&lt;p>I usually stop by and look at where I am headed in life. What am I trying to do? What did I do wrong? These questions often lead to hours of monologue with myself and my journal.&lt;/p>
-&lt;p>These are less career-oriented. Strange to put it this way, but not all reflection, self-growth and pondering have to be career-related. There&amp;rsquo;s more to life than just a job that turns me into a cog and wears me down -till I&amp;rsquo;m 60.&lt;/p></description></item><item><title>Moments Over Pixels</title><link>https://blog.aayushdev.xyz/posts/moments-over-pixels/</link><pubDate>Tue, 03 Sep 2024 00:00:00 +0530</pubDate><guid>https://blog.aayushdev.xyz/posts/moments-over-pixels/</guid><description>&lt;p>One should buy a budget camera + a cheaper phone than a flagship phone.&lt;/p>
-&lt;p>MKBHD says, &amp;ldquo;What is a photo?&amp;rdquo;. We&amp;rsquo;ve come so far in computational photography that computed photos are indistinguishable from real ones. I recently tried Google&amp;rsquo;s &amp;lsquo;Add Me&amp;rsquo;, and it&amp;rsquo;s really believable.&lt;/p>
-&lt;p>In general, I do not like the ease of photos. How we feel every moment needs to be captured and why we need only the top x phone to get the best moments possible.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aayush&#39;s blog</title>
+    <link>https://blog.aayushdev.xyz/</link>
+    <description>Recent content on aayush&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2025, Aayush Chaudhary.</copyright>
+    <lastBuildDate>Tue, 21 Oct 2025 08:43:05 +0530</lastBuildDate>
+    <atom:link href="https://blog.aayushdev.xyz/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting a Job</title>
+      <link>https://blog.aayushdev.xyz/posts/getting-a-job/</link>
+      <pubDate>Tue, 21 Oct 2025 08:43:05 +0530</pubDate>
+      <guid>https://blog.aayushdev.xyz/posts/getting-a-job/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Context:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Saw a post on &lt;a href=&#34;reddit.com/r/developersindia&#34;&gt;r/developersindia&lt;/a&gt; that explained that the shallow ed tech courses won&amp;rsquo;t get you deep experience. This post was going to be a comment but as it lengthened I felt the need to turn it into a full post.&lt;/li&gt;&#xA;&lt;li&gt;2025 AI/DS grad&lt;/li&gt;&#xA;&lt;li&gt;Current working at a startup at 8lpa as &amp;ldquo;AI Engineer&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;I tried to post this thice but kept violating rule 1 for some reason, so here&amp;rsquo;s a blog post.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;learning-exprience&#34;&gt;Learning Exprience&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;College curriculum avoids depth. It gives you high level overview of things, mostly theory. We did have GPU enabled lab, where we&amp;rsquo;d train nureal nets on various tasks (mostly vision). If one would actually write the code required, they&amp;rsquo;ll learn. It was mostly one architecture or type of model per exp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bluesky Fresh Breath</title>
+      <link>https://blog.aayushdev.xyz/posts/bluesky-fresh-breath/</link>
+      <pubDate>Mon, 24 Mar 2025 19:30:55 +0530</pubDate>
+      <guid>https://blog.aayushdev.xyz/posts/bluesky-fresh-breath/</guid>
+      <description>&lt;p&gt;Bluesky has been a new emergence as twitter alternatives. Although, from the get go I wansn&amp;rsquo;t very attracted to Twitter. The UI is too populated and everyone&amp;rsquo;s shouting.&lt;/p&gt;&#xA;&lt;p&gt;Bluesky seems quiter, not many people.&lt;/p&gt;&#xA;&lt;p&gt;Although, its counter-intuitive - I get less eyes on my work. Even so, I prefer it for the same reason. I wanna be seen but not too much.&lt;/p&gt;&#xA;&lt;h3 id=&#34;why-bsky&#34;&gt;Why BSky?&lt;/h3&gt;&#xA;&lt;p&gt;Its been about 25 days since I started posting there. I am able to talk anything, not many will see it, nor it would be judged.&#xA;But, my orignal intent was increase reach on my reserach interests and possibly land a job via networking and public learning.&#xA;That hasn&amp;rsquo;t been going so well. I just post about what happend throughout my day. And one thing that I did related to coding.&#xA;I need to follow a structured approach to this.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Reflection | Life Update</title>
+      <link>https://blog.aayushdev.xyz/posts/reflection/</link>
+      <pubDate>Tue, 24 Sep 2024 08:23:00 +0530</pubDate>
+      <guid>https://blog.aayushdev.xyz/posts/reflection/</guid>
+      <description>&lt;p&gt;Looking back at the past few months, I haven&amp;rsquo;t had the luxury of reflecting.&lt;/p&gt;&#xA;&lt;p&gt;I usually stop by and look at where I am headed in life. What am I trying to do? What did I do wrong? These questions often lead to hours of monologue with myself and my journal.&lt;/p&gt;&#xA;&lt;p&gt;These are less career-oriented. Strange to put it this way, but not all reflection, self-growth and pondering have to be career-related. There&amp;rsquo;s more to life than just a job that turns me into a cog and wears me down -till I&amp;rsquo;m 60.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Moments Over Pixels</title>
+      <link>https://blog.aayushdev.xyz/posts/moments-over-pixels/</link>
+      <pubDate>Tue, 03 Sep 2024 00:00:00 +0530</pubDate>
+      <guid>https://blog.aayushdev.xyz/posts/moments-over-pixels/</guid>
+      <description>&lt;p&gt;One should buy a budget camera + a cheaper phone than a flagship phone.&lt;/p&gt;&#xA;&lt;p&gt;MKBHD says, &amp;ldquo;What is a photo?&amp;rdquo;. We&amp;rsquo;ve come so far in computational photography that computed photos are indistinguishable from real ones. I recently tried Google&amp;rsquo;s &amp;lsquo;Add Me&amp;rsquo;, and it&amp;rsquo;s really believable.&lt;/p&gt;&#xA;&lt;p&gt;In general, I do not like the ease of photos. How we feel every moment needs to be captured and why we need only the top x phone to get the best moments possible.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
