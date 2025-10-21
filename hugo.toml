@@ -1,10 +1,13 @@
 baseURL = 'https://blog.aayushdev.xyz/'
-theme = 'nostyleplease'
+theme = 'hugo-bearblog'
 
 title = "aayush's blog"
 author = "Aayush Chaudhary"
 copyright = "Copyright © 2025, Aayush Chaudhary."
 languageCode = 'en-us'
+
+# Generate a nice robots.txt for SEO
+enableRobotsTXT = true
 
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
@@ -42,3 +45,12 @@ title = "aayush's blog"
 # for details. An example TOML config that uses [ISO
 # 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
 # dateFormat = "2006-01-02"
+
+# Configure markup highlighter to match "Bearblog" aesthetics, see
+# https://gohugo.io/configuration/markup/#highlight
+[markup]
+  [markup.highlight]
+    style = 'friendly'
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
