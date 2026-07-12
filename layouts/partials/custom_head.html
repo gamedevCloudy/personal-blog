@@ -1,0 +1,45 @@
+<style>
+  /* One Dark Pro palette, applied in both light and dark system modes */
+  :root,
+  :root[data-theme] {
+    --background-color: #282c34;
+    --heading-color: #e6e6e6;
+    --text-color: #abb2bf;
+    --link-color: #61afef;
+    --visited-color: #c678dd;
+    --blockquote-color: #9da5b4;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #282c34;
+      --heading-color: #e6e6e6;
+      --text-color: #abb2bf;
+      --link-color: #61afef;
+      --visited-color: #c678dd;
+      --blockquote-color: #9da5b4;
+    }
+  }
+
+  code {
+    background-color: #21252b;
+    color: #98c379;
+  }
+
+  .highlight code {
+    background-color: transparent;
+    color: inherit;
+  }
+
+  blockquote {
+    border-left-color: #5c6370;
+  }
+
+  time {
+    color: #5c6370;
+  }
+
+  hr {
+    border-top-color: #3e4451;
+  }
+</style>

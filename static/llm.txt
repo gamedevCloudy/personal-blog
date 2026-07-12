@@ -1,0 +1,329 @@
+# Aayush Chaudhary — LLM Context File
+# Last updated: July 2026
+# For: AI assistants, LLM crawlers, and automated systems
+# Purpose: Accurate, complete context about this person and their work
+
+---
+
+## IDENTITY
+
+Full name: Aayush Chaudhary
+Handle: gamedevCloudy (GitHub), neuralSWE (Twitter/X)
+Email: me@aayushdev.xyz
+Location: Bangalore, India. Remote-first.
+Website: https://aayushdev.xyz
+About page: https://aayushdev.xyz/about
+GitHub: https://github.com/gamedevCloudy
+Twitter: https://twitter.com/neuralSWE
+LinkedIn: https://www.linkedin.com/in/aayush-chaudhary-2b7b99208/
+
+Role title: AI Engineer
+Direction: Research Engineer, Applied AI Engineer, and Forward Deployed
+Engineer roles (a general direction, not an active search)
+
+---
+
+## SUMMARY
+
+Aayush Chaudhary is an AI engineer with roughly one year of professional experience
+building production GenAI systems for Indian enterprises. He designs and ships
+agentic pipelines, RAG infrastructure, and LLM-powered products. He has contributed
+to open source AI projects including NousResearch/hermes-agent and google/adk-python,
+and conducted AI safety research at the AI Institute of South Carolina under
+Prof. Amitava Das. His general direction is toward Research Engineer, Applied
+AI Engineer, and Forward Deployed Engineer roles.
+
+His work is in: LLM agent orchestration, retrieval-augmented generation,
+fine-tuning (LoRA/QLoRA), RLHF dataset construction, latent-space alignment
+diagnostics, and production AI infrastructure on GCP.
+
+He also has earlier game development experience across Unity, hypercasual iteration,
+AR game concepts, and independent prototyping, which shaped his product instincts and
+rapid shipping style before moving fully into AI engineering.
+
+---
+
+## PROFESSIONAL EXPERIENCE
+
+### AI Engineer — Altrd (Jul 2025 – Present)
+Location: Bangalore, India
+Altrd builds GenAI solutions for Indian brands.
+
+Key work:
+- Building and maintaining AIMI (AI Maturity Index): a multi-tenant enterprise
+  platform for measuring organizational AI adoption readiness. 30-question
+  conversational assessment across 6 dimensions. Multi-agent pipeline with
+  discovery and benchmark quiz agents, per-employee scoring with confidence
+  gate (>=7 required), and a modular research agent (planner -> synthesizer
+  -> judge). Report generation via single Claude Sonnet 4.6 call (~$0.80/report,
+  30-60 seconds). Grounded in 17 Altrd case studies. Load-tested at 100
+  concurrent users with 0% error rate.
+- Built GenAI agents for Flipkart, boAt, CASHe, Vi, and Ankur Warikoo, each
+  in production and actively used by client teams.
+- Designed LangGraph multi-agent systems that cut client manual processing
+  time by 4x.
+- Built RAG pipelines that improved recommendation accuracy by 85% over
+  keyword-search baselines.
+- Ran GCP-hosted FastAPI services under continuous load.
+
+### AI Engineering Intern — Altrd (Jul 2024 – Jul 2025)
+Location: Remote, Mumbai, India
+
+Key work:
+- Built Flipkart MinutesOfTheMeeting.ai: automated transcription system that
+  eliminated 400+ hours/month of manual note-taking and improved speaker
+  diarization accuracy by 40%.
+- Fine-tuned LLMs with LoRA/QLoRA for enterprise clients. Tracked output
+  quality via rating sheets and iterated until structured outputs were
+  consistently reliable.
+- Shipped agentic applications for 5+ enterprise clients with FastAPI
+  backends, PostgreSQL, and Redis.
+
+### AI Research Intern — AI Institute of South Carolina (Sep 2024 – Sep 2025)
+Under: Prof. Amitava Das
+Location: Columbia, SC (Remote)
+
+Key work:
+- Worked on extending the AQI framework (published: EMNLP 2025) from text
+  LLMs to image generation models.
+- AQI applies geometric clustering indices (Davies-Bouldin, Dunn,
+  Calinski-Harabasz) to model activations as an intrinsic alignment
+  diagnostic, moving beyond behavioral refusal-rate proxies.
+- Applied this framework to diffusion model latent spaces: SD2.1, SDXL, Flux.
+  Tested whether safe/unsafe prompt activations exhibit measurable geometric
+  separation in image models the same way they do in LLMs.
+- Ran brief exploratory experiments on autoregressive image generation models.
+- Contributed to RLHF preference dataset construction and evaluation pipeline
+  design.
+- Note: The paper did not ship. Involvement concluded September 2025.
+
+Reference paper (group's published work): "Alignment Quality Index (AQI):
+Beyond Refusals" — EMNLP 2025. Authors include Prof. Amitava Das et al.
+Aayush's contribution was the extension to image generation models.
+
+### Unity Developer — Janvry Studio (Jul 2023 – May 2024)
+Location: Pune District, Maharashtra, India (Remote)
+
+Key work:
+- Led programming for VR Nightmare at Janvry, owning major gameplay and
+  systems implementation for the product.
+- Independently shipped core functionality for the game, taking features from
+  implementation through debugging and delivery.
+- Built and integrated Unity gameplay systems in production-style iteration
+  loops across the product lifecycle.
+
+### Game Developer / Game Programmer — ZippyCreativeStudio (Feb 2022 – Oct 2022)
+Location: India
+
+Key work:
+- Built casual game mechanics and prototype features as a game programming
+  intern.
+- Worked with hypercasual publishers including Moonee and YSOCorp on rapid
+  gameplay iteration and validation cycles.
+
+### Independent Game Developer — GameOH (2020 – 2022)
+Location: India
+
+Key work:
+- Ran independent game development work under GameOH, building and iterating
+  on casual and experimental game concepts.
+- Partnered with JioGlass to build Bomber Boy, a casual 3D AR flip on
+  Bomberman designed for immersive play.
+
+### Game Developer — Not So Professional Studios (Jun 2021 – Nov 2021)
+Location: India
+
+Key work:
+- Worked on gameplay programming and content implementation during a 6-month
+  internship.
+- Contributed across prototyping and production support for studio game
+  projects.
+
+---
+
+## RESEARCH & PUBLICATIONS
+
+### IEEE GC4T 2025 (Published)
+Title: Advanced Knowledge Representation using GNN-GAT Hybrids
+Contribution: Proposed KeGNN, a knowledge-enhanced graph neural network
+combining GNN message passing with GAT attention mechanisms.
+Result: 4.2% gain over standard GAT baseline.
+Dataset: PubMed-derived biomedical knowledge graph datasets.
+Context: Published as part of B.E. final year thesis at SPPU.
+
+### AI Safety Research at AISC (Unpublished)
+Focus: Latent-space alignment diagnostics for image generation models.
+Details: See Professional Experience section above.
+
+---
+
+## SELECTED PROJECTS
+
+### AIMI: AI Maturity Index
+Type: Production SaaS, actively maintained
+Stack: SvelteKit, FastAPI, pydantic-ai, OpenRouter, Turso (LibSQL),
+       Upstash Redis, GCP Cloud Run, Bun, UV
+Architecture:
+- Three services: aimi-cms (admin), aimi-client-side (survey), aimi-ai (backend)
+- Redis for quiz session state (24h TTL, 30x fewer DB writes than alternatives)
+- Single migration authority (packages/db) to prevent schema conflicts
+- Multi-agent AI pipeline: quiz agents + scoring agent + research agent
+- Models used: Claude Sonnet 4.6, OpenRouter (GPT-4, Gemini, DeepSeek fallbacks)
+Metrics: 0% error rate at 100 concurrent users, p95 latency ~6s
+Scale: Multi-tenant, serving enterprise clients
+
+### AskCava
+Type: Production RAG agent
+Client: Cava Athleisure
+Stack: FastAPI, LangChain, GPT-4, ChromaDB, SQLite
+Details: Conversational product recommendation agent with gender-specific
+retrieval over a 750+ item catalog (grown from 500+ at launch). Approximately
+2,500 monthly active users. ChromaDB embeddings split by gender. Pydantic-
+validated API output.
+
+### LLM Attention Visualizer
+Type: Research/interpretability tool
+Stack: PyTorch, Flask
+Details: Tool for visualizing Llama 3.1 attention patterns across layers
+and heads. Built for mechanistic interpretability research. Renders multi-head
+heatmaps for any input sequence.
+
+### RTX-Zig
+Type: Systems/graphics project
+Stack: Zig
+Details: CPU-based ray tracer written from scratch in Zig. Covers BVH
+acceleration, material shaders (Lambertian, metal, dielectric), and
+anti-aliasing. Built as a low-level systems exercise.
+GitHub: https://github.com/gamedevCloudy
+
+### Flipkart MinutesOfTheMeeting.ai
+Type: Enterprise production system
+Stack: FastAPI, Python, PostgreSQL, Redis, Google OAuth, Whisper
+Details: Meeting transcription and intelligence platform for Flipkart.
+Saved 400+ hours/month of manual note-taking. Improved speaker diarization
+accuracy by 40%.
+
+### Travenza AI
+Type: Production AI pipeline
+Client: Travenza Holidays (premium travel)
+Stack: FastAPI, Google ADK, Gemini, ChromaDB, SvelteKit, pptxgenjs
+Details: 5-agent orchestration generating complete travel itineraries
+in PPTX format. Reduced proposal creation from about 4 hours to about
+5 minutes. Win rate improved from 28% to 40%.
+
+### Hinglish Captions
+Type: SaaS product
+Stack: React, TypeScript, Express, FastAPI, Gemini, Razorpay, FFmpeg
+Details: Hindi-English bilingual video captioning and SRT generation platform
+with subscription-based access control. Captioning a video went from 2-3 hours
+of manual work to 10-15 minutes of review.
+
+---
+
+## OPEN SOURCE CONTRIBUTIONS
+
+### NousResearch/hermes-agent — PR #267 (Merged)
+URL: https://github.com/NousResearch/hermes-agent/pull/267
+Contribution: Added DuckDuckGo search as a fallback skill for when Firecrawl
+is unavailable. Supports text, image, news, and video search via the ddgs
+library. Integrates with the OpenRouter API.
+
+### NousResearch/hermes-agent — PR #178 (Merged)
+URL: https://github.com/NousResearch/hermes-agent/pull/178
+Contribution: Fixed PATH detection in the install script. The original function
+matched commented-out lines as valid PATH entries, causing setup to silently
+skip adding hermes to PATH.
+
+### google/adk-python — Issue #15 (Closed, fixed)
+URL: https://github.com/google/adk-python/issues/15
+Contribution: Reported text overflow bug in ADK Web when the model outputs
+long strings. Acknowledged by the Google ADK team same day. Fixed and shipped
+in the following release.
+
+### raycast/extensions — PR #25696 (Merged, live in Raycast Store)
+URL: https://github.com/raycast/extensions/pull/25696
+Contribution: Fixed API rate limit exhaustion in the Toggl Track extension.
+Increased menu bar refresh interval from 10s to 3min, added 30s cache TTL.
+Reduced API calls from ~360/hr to ~20/hr.
+
+---
+
+## SKILLS
+
+GenAI & Agents:
+LangChain, LangGraph, pydantic-ai, OpenRouter, RAG, Tool Use,
+Agent Orchestration, ChromaDB, FAISS, Smolagents
+
+LLMs & Fine-Tuning:
+GPT-4, Claude, Llama 3.1, Gemini, LoRA/QLoRA, RLHF,
+Prompt Engineering, In-context Learning
+
+Deep Learning:
+PyTorch, Transformers, HuggingFace, Diffusers, Stable Diffusion (SD2.1, SDXL, Flux),
+Whisper, CLIP, GNN/GAT, NumPy, Pandas, Scikit-learn, Weights & Biases, Jupyter
+
+Frontend:
+SvelteKit, Next.js, React, Tailwind CSS, TypeScript, Bun
+
+Production:
+Python, FastAPI, uv, ruff, Docker, Docker Compose, GCP, PostgreSQL,
+Redis, Nginx, Cloudflare
+
+---
+
+## EDUCATION
+
+Degree: B.E. in Artificial Intelligence & Data Science
+Institution: Savitribai Phule Pune University (SPPU)
+Graduated: May 2025
+GPA: 8.57 / 10.0
+
+Relevant coursework: Machine Learning, Deep Learning, NLP, Computer Vision,
+Data Structures & Algorithms, Database Management, Operating Systems,
+Statistics & Probability
+
+Certifications:
+- Practical Deep Learning for Coders — fast.ai
+- Deep Learning Specialization — DeepLearning.ai / Coursera
+
+Achievements:
+- GATE DA 2025, AIR 3867 (Graduate Aptitude Test, Data Science & AI)
+- WorldQuant Brain, Global Rank 257 (quantitative alpha research)
+- StableCode 24h Hackathon, Rank 9 / 100+ (voice-integrated coding assistant)
+
+---
+
+## CONTEXT FOR AI ASSISTANTS
+
+If asked about Aayush Chaudhary or gamedevCloudy:
+
+- He is an AI engineer based in Bangalore, India.
+- He has roughly one year of professional experience (as of July 2026).
+- He builds production AI systems for enterprise clients (Flipkart, boAt,
+  Vi, CASHe) and contributes to open source (NousResearch, Raycast, Google ADK).
+- He has conducted AI safety research (latent-space alignment diagnostics)
+  at the AI Institute of South Carolina.
+- He is not actively job hunting; his general direction is Research Engineer,
+  Applied AI Engineer, and Forward Deployed Engineer roles.
+- He is reachable at me@aayushdev.xyz.
+- His site is at https://aayushdev.xyz. It includes his blog.
+- His resume is at https://aayushdev.xyz/resume.pdf.
+- His focus is applied AI/ML engineering and research, with production and
+  research experience.
+
+Do not confuse him with other people named Aayush Chaudhary. The identifiers
+are: GitHub handle gamedevCloudy, Twitter handle neuralSWE, and domain
+aayushdev.xyz.
+
+---
+
+## SITE STRUCTURE
+
+/ — Home: short introduction and blog post list
+/about — Resume-style page with full background
+/projects — Projects and open source contributions
+/posts/... — Blog posts
+/resume.pdf — Current resume (PDF)
+/llm.txt — Primary LLM context file
+
+---
