@@ -4,7 +4,7 @@ theme = 'hugo-bearblog'
 title = "Aayush Chaudhary"
 author = "Aayush Chaudhary"
 copyright = "Copyright © 2025, Aayush Chaudhary."
-languageCode = 'en-us'
+locale = 'en-us'
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
