@@ -42,4 +42,18 @@
   hr {
     border-top-color: #3e4451;
   }
+
+  .img-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    margin: 1rem 0;
+  }
+
+  .img-row img {
+    width: 100%;
+    height: auto;
+    max-height: min(60vh, 460px);
+    object-fit: contain;
+  }
 </style>

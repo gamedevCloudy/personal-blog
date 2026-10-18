@@ -1,0 +1,10 @@
+{{ with .Params }}
+<div class="img-row">
+  {{ range . }}
+    {{ $parts := split . "|" }}
+    {{ $src := trim (index $parts 0) " " }}
+    {{ $alt := trim (index $parts 1) " " }}
+    <img src="{{ $src }}" alt="{{ $alt }}">
+  {{ end }}
+</div>
+{{ end }}
