@@ -1,5 +1,5 @@
 +++
-date = '2026-10-10T12:03:16+05:30'
+date = '2026-10-10T12:03:16+05:30'  
 title = 'Time When I Worked With OpenAI'
 featured_image = "/images/oai-gradient.webp"
 images = ["/images/oai-gradient.webp"]
