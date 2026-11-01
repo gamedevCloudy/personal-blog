@@ -1,6 +1,5 @@
 +++
 date = '2026-11-01T23:32:53+05:30'
-draft = true
 title = 'Tech I Am Betting On'
 +++
 
