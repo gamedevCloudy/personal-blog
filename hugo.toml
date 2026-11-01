@@ -41,6 +41,11 @@ name = "Research"
 url = "/research/"
 weight = 5
 
+[[menu.main]]
+name = "Lists"
+url = "/lists/"
+weight = 6
+
 [params]
 # The "description" of your website. This is used in the meta data of your generated html.
 description = "AI engineer in Bangalore. I build agents and RAG systems for work, and write here."
