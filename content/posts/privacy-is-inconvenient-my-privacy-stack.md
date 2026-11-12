@@ -1,6 +1,5 @@
 +++
 date = '2026-11-05T09:19:22+05:30'
-draft = true
 title = 'Privacy is Inconvenient: My Privacy Stack'
 featured_image = "/images/privacy-stack.webp"
 +++
