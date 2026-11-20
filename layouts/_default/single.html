@@ -2,7 +2,7 @@
 {{ with .Params.featured_image }}
 <img src="{{ . | absURL }}" alt="{{ $.Title }}" style="max-width:100%;height:auto;margin-bottom:1rem;">
 {{ end }}
-{{ if in (slice "blog" "posts") .Type }}{{ if not .Params.menu }}
+{{ if in (slice "blog" "posts" "lists") .Type }}{{ if not .Params.menu }}
 <h1>{{ .Title }}</h1>
 <p>
   <i>

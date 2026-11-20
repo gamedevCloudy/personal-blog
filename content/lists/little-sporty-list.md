@@ -2,6 +2,7 @@
 date = '2026-11-19T09:47:31+05:30'
 draft = false
 title = 'Little Sporty List'
+featured_image = "/images/little-sporty-pool.webp"
 images = ["/images/little-sporty-pool.webp"]
 +++
 

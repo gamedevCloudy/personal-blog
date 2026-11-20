@@ -3,8 +3,6 @@ date = '2026-11-01T23:32:53+05:30'
 title = 'Tech I Am Betting On'
 +++
 
-# Tech I Am Betting On
-
 This is a list of tech that I am betting on, and that should win.
 
 ## 1. libghostty and CLI
