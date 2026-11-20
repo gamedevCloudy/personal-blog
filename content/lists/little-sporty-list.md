@@ -39,7 +39,7 @@ From there, I only did a little bit of "home workouts".
 
 Skipping to the future:
 
-1. Gym
+### 1. Gym
 
 For the better part of college, I struggled with my immunity going down and falling sick. I also had 2 wisdom teeth surgically removed within a year, plus another minor surgery.
 
@@ -56,7 +56,7 @@ I was very weak during the first week and it only improved from there. My body q
 
 Gym stopped after I moved back home from college.
 
-2. Swimming
+### 2. Swimming
 
 I used to try to go swimming during college, and it basically depended on the public pool being in working condition and us getting reservations.
 
