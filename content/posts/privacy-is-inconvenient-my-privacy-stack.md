@@ -2,6 +2,7 @@
 date = '2026-11-05T09:19:22+05:30'
 title = 'Privacy is Inconvenient: My Privacy Stack'
 featured_image = "/images/privacy-stack.webp"
+images = ["/images/privacy-stack.webp"]
 +++
 
 We live in the age of "you will own nothing and be happy".

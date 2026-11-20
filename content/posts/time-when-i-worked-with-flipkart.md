@@ -2,7 +2,7 @@
 date = '2026-10-18T16:19:38+05:30'
 title = 'Time When I Worked With Flipkart'
 featured_image = "/images/mom-onboard.webp"
-images = ["/images/mom-onboard.webp"]
+images = ["/images/mom-onboard-og.webp"]
 +++
 
 ## Flipkart Minutes of the Meeting (minutesofthemeeting.ai)

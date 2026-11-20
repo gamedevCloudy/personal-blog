@@ -2,6 +2,7 @@
 date = '2026-11-13T10:39:37+05:30'
 draft = false
 title = 'My Fav Games'
+images = ["/images/games-og.webp"]
 +++
 
 Games have played a very integral part in my life.
