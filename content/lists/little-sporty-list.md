@@ -1,6 +1,6 @@
 +++
 date = '2026-11-19T09:47:31+05:30'
-draft = true
+draft = false
 title = 'Little Sporty List'
 images = ["/images/little-sporty-pool.webp"]
 +++
