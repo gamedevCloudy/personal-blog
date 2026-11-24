@@ -2,27 +2,32 @@
 title = 'About'
 +++
 
-- **Role:** AI Engineer · GenAI & Agentic Systems
-- **Location:** Bangalore, India · Remote-first
+- **Role:** AI Engineer at a Series B AI startup (since Sep 2026)
+- **Location:** Delhi NCR (Noida), India
 - **Direction:** Research engineering · Applied AI · Forward-deployed engineering
 - **Focus:** Deep Learning · Applied AI · AI Safety
 - **Contact:** [me@aayushdev.xyz](mailto:me@aayushdev.xyz)
 - **Links:** [GitHub](https://github.com/gamedevCloudy) · [LinkedIn](https://www.linkedin.com/in/aayush-chaudhary-2b7b99208/) · [Twitter](https://twitter.com/neuralSWE) · [Resume](/resume.pdf)
 
-AI engineer, about a year into professional work. I build agentic pipelines, RAG systems, and LLM-powered products, shipped to production for Flipkart, boAt, Vi, CASHe, and others. Ran a research internship at AISC working on latent-space alignment diagnostics for image generation models. The direction I'm headed: research engineering, applied AI, and forward-deployed work.
+AI engineer, about 1.5 years into full-time work. I build agentic pipelines, RAG systems, and LLM-powered products, shipped to production for Flipkart, boAt, Vi, CASHe, and others. Ran a research internship at AISC working on latent-space alignment diagnostics for image generation models. The direction I'm headed: research engineering, applied AI, and forward-deployed work.
 
 ## Experience
 
-### AI Engineer · Altrd (Jul 2025 – Present)
+### AI Engineer · Series B AI startup (Sep 2026 – present)
 
-GenAI solutions for Indian brands. Bangalore, IN.
+Delhi NCR (Noida), IN.
 
-- Building and maintaining AIMI, a multi-tenant AI maturity assessment platform: 30-question conversational quiz with multi-agent scoring, grounded report generation (~$0.80/report, 30-60s), and a modular research agent. 0% error rate at 100 concurrent users in load testing
-- Built GenAI agents for Flipkart, boAt, CASHe, Vi, and Ankur Warikoo; each shipped to production and actively used by client teams
+### AI Engineer · Bootstrapped startup, OpenAI partner (Jul 2025 – Aug 2026)
+
+GenAI solutions for Indian brands; now in the OpenAI partner program. Bangalore, IN. Across both roles here (Jul 2024 – Aug 2026), I was the only forward deployed engineer, owning the AI agent and agent-first projects.
+
+- Wrote creator-led campaign ideas for ChatGPT's India expansion; two became official ChatGPT India TV ads that aired during the IPL. Also wrote problem statements for an OpenAI Codex hackathon. [Write-up](/posts/time-when-i-worked-with-openai/)
+- Built and maintained AIMI, a multi-tenant AI maturity assessment platform: 30-question conversational quiz with multi-agent scoring, grounded report generation (~$0.80/report, 30-60s), and a modular research agent. 0% error rate at 100 concurrent users in load testing
+- Built GenAI agents for Flipkart, boAt, CASHe, Vi, and Ankur Warikoo; each shipped to production
 - Designed LangGraph multi-agent systems that cut client manual processing time by 4×
-- Built RAG pipelines that improved recommendation accuracy by 85% over the keyword-search baseline they replaced
+- Built AskCava's RAG pipeline, which improved recommendation accuracy by 85% over the keyword-search baseline it replaced
 
-### AI Engineering Intern · Altrd (Jul 2024 – Jul 2025)
+### AI Engineering Intern · Bootstrapped startup, OpenAI partner (Jul 2024 – Jul 2025)
 
 Remote · Mumbai, IN.
 
@@ -37,6 +42,7 @@ Under Prof. Amitava Das. Columbia, SC · Remote.
 - Extended the AQI framework (EMNLP 2025), a latent-space alignment diagnostic using geometric clustering indices (Davies-Bouldin, Dunn, Calinski-Harabasz), from text LLMs to diffusion models
 - Tested safe/unsafe activation separation in SD2.1, SDXL, and Flux latent spaces; also ran brief exploratory experiments on autoregressive image generation models
 - Contributed to RLHF preference dataset construction and evaluation pipeline design for alignment quality assessment
+- Implemented the "Stable Diffusion Is Unstable" paper and adapted it to newer diffusion models (SDXL and others). See [research](/research/)
 
 ### Earlier: game development
 
@@ -55,7 +61,7 @@ Worked under Prof. Amitava Das on extending the group's AQI framework (EMNLP 202
 
 My work: applied this to diffusion model latent spaces (SD2.1, SDXL, Flux), testing whether safe/unsafe prompt activations show geometric separation in image models the same way they do in LLMs. Also did brief exploratory work on autoregressive image models in the final weeks. Contributed to RLHF dataset construction and evaluation pipeline work alongside this.
 
-Paper did not ship. Involvement concluded Sep 2025.
+The AQI extension paper did not ship. Involvement concluded Sep 2025.
 
 **Publication · IEEE GC4T 2025** (B.E. Thesis · SPPU)
 
@@ -63,9 +69,9 @@ Paper did not ship. Involvement concluded Sep 2025.
 
 ## Selected Projects
 
-- **AIMI: AI Maturity Index** — Multi-tenant enterprise platform for measuring organizational AI adoption readiness. Employees take a 30-question conversational assessment across 6 dimensions; multi-agent pipeline (discovery + benchmark quiz agents, per-employee scoring with confidence gate) generates grounded reports via a single Claude Sonnet 4.6 call (~30-60s, ~$0.80/report). Research agent runs a modular planner, synthesizer, and judge pipeline grounded in 17 Altrd case studies. Load-tested at 100 concurrent users with 0% error rate. *(SvelteKit, FastAPI, pydantic-ai, OpenRouter, Turso, Redis)*
+- **AIMI: AI Maturity Index** — Multi-tenant enterprise platform for measuring organizational AI adoption readiness. Employees take a 30-question conversational assessment across 6 dimensions; multi-agent pipeline (discovery + benchmark quiz agents, per-employee scoring with confidence gate) generates grounded reports via a single Claude Sonnet 4.6 call (~30-60s, ~$0.80/report). Research agent runs a modular planner, synthesizer, and judge pipeline grounded in 17 company case studies. Load-tested at 100 concurrent users with 0% error rate. *(SvelteKit, FastAPI, pydantic-ai, OpenRouter, Turso, Redis)*
 - **AskCava** — Conversational RAG agent for Cava Athleisure. Gender-specific product retrieval over a 750+ item catalog (grown from 500+ at launch), ~2,500 MAU. ChromaDB embeddings split by gender; Pydantic-validated API output. *(RAG, ChromaDB, FastAPI, LangChain)*
-- **LLM Attention Visualizer** — Flask tool for visualizing Llama 3.1 attention patterns across layers and heads. Built for mechanistic interpretability research; renders multi-head heatmaps for any input sequence. *(PyTorch, Flask, Interpretability)*
+- **LLM Attention Visualizer** — Flask tool for visualizing Llama 3.1 attention patterns across layers and heads. Built for mechanistic interpretability research; renders multi-head heatmaps for any input sequence. A scoped-down [DistilBERT version](https://github.com/gamedevCloudy/attention-visualization) was built for presentation. *(PyTorch, Flask, Interpretability)*
 - **[RTX-Zig](https://github.com/gamedevCloudy)** — CPU-based ray tracer written from scratch in Zig. Covers BVH acceleration, material shaders (Lambertian, metal, dielectric), and anti-aliasing. Built as a low-level systems exercise. *(Zig, Graphics, Systems)*
 
 More on the [projects page](/projects/).

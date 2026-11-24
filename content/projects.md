@@ -6,9 +6,9 @@ title = 'Projects'
 
 Things I've built, at work and on my own. Real numbers only; where a number has a caveat, the caveat is stated.
 
-## AIMI: AI Maturity Index (2025 – present)
+## AIMI: AI Maturity Index (2025 – 2026)
 
-Multi-tenant platform for measuring how ready an organization is to adopt AI. Employees take a 30-question conversational assessment across 6 dimensions. A multi-agent pipeline (discovery and benchmark quiz agents, per-employee scoring with a confidence gate) generates grounded reports via a single Claude Sonnet 4.6 call: 30-60 seconds, ~$0.80 per report. A research agent runs a planner, synthesizer, and judge pipeline grounded in 17 Altrd case studies. Load-tested at 100 concurrent users with a 0% error rate and p95 latency around 6 seconds.
+Multi-tenant platform for measuring how ready an organization is to adopt AI. Employees take a 30-question conversational assessment across 6 dimensions. A multi-agent pipeline (discovery and benchmark quiz agents, per-employee scoring with a confidence gate) generates grounded reports via a single Claude Sonnet 4.6 call: 30-60 seconds, ~$0.80 per report. A research agent runs a planner, synthesizer, and judge pipeline grounded in 17 company case studies. Load-tested at 100 concurrent users with a 0% error rate and p95 latency around 6 seconds.
 
 *SvelteKit, FastAPI, pydantic-ai, OpenRouter, Turso (LibSQL), Upstash Redis, GCP Cloud Run*
 
@@ -38,7 +38,7 @@ Bilingual Hindi-English video captioning and SRT generation platform for Owled M
 
 ## LLM Attention Visualizer
 
-Tool for visualizing Llama 3.1 attention patterns across layers and heads. Renders multi-head heatmaps for any input sequence. Built for mechanistic interpretability research.
+Tool for visualizing Llama 3.1 attention patterns across layers and heads. Renders multi-head heatmaps for any input sequence. Built for mechanistic interpretability research. A scoped-down [DistilBERT version](https://github.com/gamedevCloudy/attention-visualization) was built for presentation.
 
 *PyTorch, Flask*
 

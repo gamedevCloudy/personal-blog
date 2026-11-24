@@ -6,6 +6,6 @@ I have built my career in Applied AI - building and shipping GenAI systems, agen
 
 This blog is a collection of memories, thoughts and things I built - so I don't forget who I am!
 
-More: [about](/about/) · [projects](/projects/) · [resume](/resume.pdf) · [llm.txt](/llm.txt)
+More: [about](/about/) · [projects](/projects/) · [resume](/resume.pdf) · [llms.txt](/llms.txt)
 
 [me@aayushdev.xyz](mailto:me@aayushdev.xyz)

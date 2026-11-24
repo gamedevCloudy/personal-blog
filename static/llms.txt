@@ -1,0 +1,37 @@
+# Aayush Chaudhary
+
+> AI engineer at a Series B AI startup in Delhi NCR (Noida), India, since Sep 2026. Before that, he was the only forward deployed engineer at a bootstrapped startup that is an OpenAI partner, building production agents and RAG systems for clients including Flipkart, boAt, Vi and CASHe. He did AI safety research at the AI Institute of South Carolina and writes a personal blog about work and life.
+
+Not to be confused with other people named Aayush Chaudhary. Identifiers: GitHub gamedevCloudy, Twitter/X neuralSWE, domain aayushdev.xyz. Contact: me@aayushdev.xyz.
+
+## Pages
+
+- [About](https://aayushdev.xyz/about/): full background, experience, education
+- [Projects](https://aayushdev.xyz/projects/): things built at work and on his own, plus open source contributions
+- [Research](https://aayushdev.xyz/research/): research work, including independent projects
+- [Lists](https://aayushdev.xyz/lists/): personal lists
+
+## Posts
+
+- [I Sound Like an LLM](https://aayushdev.xyz/posts/i-sound-like-an-llm/): on writing that reads like AI, and a day of working with coding agents
+- [Privacy is Inconvenient: My Privacy Stack](https://aayushdev.xyz/posts/privacy-is-inconvenient-my-privacy-stack/): the tools he uses to keep his data private
+- [Time When I Worked With Flipkart](https://aayushdev.xyz/posts/time-when-i-worked-with-flipkart/): building Flipkart Minutes of the Meeting (minutesofthemeeting.ai)
+- [Time When I Worked With OpenAI](https://aayushdev.xyz/posts/time-when-i-worked-with-openai/): writing ChatGPT India campaign ideas; two became TV ads
+- [Getting a Job](https://aayushdev.xyz/posts/getting-a-job/): advice for AI/DS grads on getting a job beyond shallow courses
+- [Bluesky Fresh Breath](https://aayushdev.xyz/posts/bluesky-fresh-breath/): why he prefers Bluesky over Twitter
+- [Reflection | Life Update](https://aayushdev.xyz/posts/reflection/): a personal reflection and life update
+- [Moments Over Pixels](https://aayushdev.xyz/posts/moments-over-pixels/): on being in the moment rather than chasing the best phone camera
+
+## Lists
+
+- [Little Sporty List](https://aayushdev.xyz/lists/little-sporty-list/): sports and health adventures
+- [My Fav Games](https://aayushdev.xyz/lists/my-fav-games/): favourite games, from NES clones onward
+- [Tech I Am Betting On](https://aayushdev.xyz/lists/tech-i-am-betting-on/): tech he expects to win
+
+## Optional
+
+- [llms-full.txt](https://aayushdev.xyz/llms-full.txt): full context (experience, projects, research, skills, education) in one file
+- [Resume](https://aayushdev.xyz/resume.pdf): current resume (PDF)
+- [GitHub](https://github.com/gamedevCloudy)
+- [LinkedIn](https://www.linkedin.com/in/aayush-chaudhary-2b7b99208/)
+- [Twitter/X](https://twitter.com/neuralSWE)
